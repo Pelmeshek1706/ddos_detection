@@ -6,9 +6,11 @@
 The full EDA is listed in the notebook, but below are some conclusions about the data.
 
 The protocol of choice for cyberattacks has mostly been UDP. This is because UDP is a simple and hopeless protocol that provides unreliable delivery of data between devices. It provides no guarantee of delivery or control over the order in which data is transmitted. UDP is often used for when small amounts of data need to be sent quickly without the need to acknowledge receipt or retransmit the data. 
+
 ![alt_text](https://prnt.sc/5OGeD1JK2B1Q)
 
 Therefore, common communications have been using ICMP, which is more secure. 
+
 ![alt_text](https://prnt.sc/Y5kN1bKmCbBz)
 
 #### Below are the training results of the different models
